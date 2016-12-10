@@ -46,13 +46,16 @@ function toggleGroup(groupName) {
     x = document.getElementsByClassName(groupName);
     if (x[0].style.display == "none") {
         $("#"+groupName).text(function () {
-         return $(this).text().replace("\u25be", "\u25b4"); 
+         return $(this).text().replace("+", "-"); 
         });
         for (i = 0; i < x.length; i++) {
         x[i].style.display = "block";
         }
     }
     else {
+        $("#"+groupName).text(function () {
+         return $(this).text().replace("-", "+"); 
+        });
        for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";
       }
