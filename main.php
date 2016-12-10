@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 <script src="jquery-3.1.0.min.js"></script>
 <script src="raphael.js"></script>
+<script src="ssPointLoadBeamModuleMainJS.js"></script>
 
 <style>
             .module {display:none;}

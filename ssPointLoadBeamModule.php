@@ -170,7 +170,8 @@
 </div>
 <!-- End AISC Modal -->
 
-<script src="ssPointLoadBeamModuleMainJS.js"></script>
+
+<script src="ssPointLoadBeamModuleDraw.js"></script>
 <script src="ssPointLoadBeamModuleAISCmodalJS.js"></script>
 
 
