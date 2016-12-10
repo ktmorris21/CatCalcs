@@ -88,13 +88,13 @@
   <small>
   
   <div class="w3-container">
-    <h6 class="unselectable" onclick="toggleGroup('solutionsLink');" style="cursor: pointer;">Solution Sets</h6>
+    <h6 id="solutionsLink" class="unselectable" onclick="toggleGroup('solutionsLink');" style="cursor: pointer;">Solution Sets &nbsp +</h6>
   </div>
     <a href="#" class="w3-padding tablink solutionsLink w3-blue" onclick="openModule(event,'quickStartModule.php');"><i class="fa fa-tachometer fa-fw"></i>&nbsp; Quick Start</a>
     <a href="#" class="w3-padding tablink solutionsLink" onclick="openModule(event,'solutionSetsModule');"><i class="fa fa-users fa-fw"></i>&nbsp; Solution Sets</a>
   
   <div class="w3-container">
-    <h6 id="mechanicsLink" class="unselectable" onclick="toggleGroup('mechanicsLink');" style="cursor: pointer;">Mechanics &nbsp &#9662</h6>
+    <h6 id="mechanicsLink" class="unselectable" onclick="toggleGroup('mechanicsLink');" style="cursor: pointer;">Mechanics &nbsp +</h6>
   </div>
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'beamsModule.php');"><i class="fa fa-minus fa-fw"></i>&nbsp; Beams</a>
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'platesModule');"><i class="fa fa-square fa-fw"></i>&nbsp; Plates</a>
@@ -107,26 +107,26 @@
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'sifModule');"><i class="fa fa-chain-broken fa-fw"></i>&nbsp; SIF Stress/Strain</a>
    
    <div class="w3-container">
-    <h6 class="unselectable" onclick="toggleGroup('thermoLink');" style="cursor: pointer;">Thermo & Fluids</h6>
+    <h6 id="thermoLink" class="unselectable" onclick="toggleGroup('thermoLink');" style="cursor: pointer;">Thermo & Fluids &nbsp +</h6>
   </div>
     <a href="#" class="w3-padding tablink thermoLink" onclick="openModule(event,'fluidFlowModule');"><i class="fa fa-arrow-circle-right fa-fw"></i>&nbsp; Fluid Flow</a>
     <a href="#" class="w3-padding tablink thermoLink" onclick="openModule(event,'thermoCyclesModule');"><i class="fa fa-line-chart fa-fw"></i>&nbsp; Thermo Cycles</a>
     <a href="#" class="w3-padding tablink thermoLink" onclick="openModule(event,'chemistryModule');"><i class="fa fa-flask fa-fw"></i>&nbsp; Chemical Rxns</a>
   
   <div class="w3-container">
-    <h6 class="unselectable" onclick="toggleGroup('electricalLink');" style="cursor: pointer;">Electrical</h6>
+    <h6 id="electricalLink" class="unselectable" onclick="toggleGroup('electricalLink');" style="cursor: pointer;">Electrical &nbsp +</h6>
   </div>
    <a href="#" class="w3-padding tablink electricalLink" onclick="openModule(event,'circuitsModule');"><i class="fa fa-bolt fa-fw"></i>&nbsp; Circuits Modeling</a>
    <a href="#" class="w3-padding tablink electricalLink" onclick="openModule(event,'electicalComponentsModule');"><i class="fa fa-plug fa-fw"></i>&nbsp; Comp. Analysis</a>
     
    <div class="w3-container">
-    <h6 class="unselectable" onclick="toggleGroup('mathLink');" style="cursor: pointer;">Mathematics</h6>
+    <h6 id="mathLink" class="unselectable" onclick="toggleGroup('mathLink');" style="cursor: pointer;">Mathematics &nbsp +</h6>
   </div>
    <a href="#" class="w3-padding tablink mathLink" onclick="openModule(event,'mathModule');"><i class="fa fa-superscript fa-fw"></i>&nbsp; Equation Solver</a>
    <a href="#" class="w3-padding tablink mathLink" onclick="openModule(event,'graphModule');"><i class="fa fa-area-chart fa-fw"></i>&nbsp; Graphing</a>
    
     <div class="w3-container">
-    <h6 class="unselectable" onclick="toggleGroup('econLink');" style="cursor: pointer;">Econ & Finance</h6>
+    <h6 id="econLink" class="unselectable" onclick="toggleGroup('econLink');" style="cursor: pointer;">Econ & Finance &nbsp +</h6>
   </div>
    <a href="#" class="w3-padding tablink econLink" onclick="openModule(event,'pvFvModule');"><i class="fa fa-credit-card fa-fw"></i>&nbsp; PV / FV</a>
    <a href="#" class="w3-padding tablink econLink" onclick="openModule(event,'irrModule');"><i class="fa fa-money fa-fw"></i>&nbsp; IRR</a>
