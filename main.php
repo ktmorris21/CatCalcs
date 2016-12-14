@@ -15,9 +15,6 @@
 <meta name="CatCalcs" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-<script src="jquery-3.1.0.min.js"></script>
-<script src="raphael.js"></script>
-<script src="ssPointLoadBeamModuleMainJS.js"></script>
 
 <style>
             .module {display:none;}
@@ -155,8 +152,12 @@
 
 </div> 
 
-
-<script src="mainAppClient.js"></script>
+<script src="jquery-3.1.0.min.js"></script>
+<script src="raphael.js"></script>
 <script src="ohsnap.js"></script>
+<script src="namespaces.js"></script>
+<script src="ssPointLoadBeamModuleMainJS.js"></script>
+<script src="mainAppClient.js"></script>
+
 </body>
 </html>
