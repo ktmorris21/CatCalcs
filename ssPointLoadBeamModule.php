@@ -2,7 +2,7 @@
 <h4>Beam Model - Simply Supported Point Load</h4>
 
 <ul class="w3-navbar w3-blue w3-margin">
-  <li><a href="#" onclick="openTab(event, 'Definition')" class="tablink w3-indigo"><small>Definition & Diagrams</small></a></li>
+  <li><a href="#" onclick="openTab(event, 'Definition')" class="ssPointLoadtablink w3-indigo"><small>Definition & Diagrams</small></a></li>
   <li><a href="#" onclick="openTab(event, 'Results')" class="tablink"><small>Results</small></a></li>
   <li><a href="#" onclick="openTab(event, 'Calculations')" class="tablink"><small>Calculations</small></a></li>
 </ul>
@@ -171,7 +171,5 @@
 <!-- End AISC Modal -->
 
 
-<script src="ssPointLoadBeamModuleDraw.js"></script>
-<script src="ssPointLoadBeamModuleAISCmodalJS.js"></script>
 
 

@@ -1,5 +1,3 @@
-// Draw beam diagrams - Can't pre-load this in main.php. Must wait for ssPointLoadBeamModule.php to be loaded so the Raphael ties
-// to the drawing canvas work.
 
 // Diagram Setup
 var diagramStartingX = 25;

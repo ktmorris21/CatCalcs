@@ -16,12 +16,11 @@
 <script>
 
 function loadBeamsModule() {
-	$("#moduleViewer").fadeOut("fast", function(){
-		$("#moduleViewer").empty();
-		$("#moduleViewer").hide();
-		$("#moduleViewer").load("beamsModule.php");
-		$("#moduleViewer").fadeIn("fast", function(){	
-		});	
+	$(".moduleContent").fadeOut("slow", function(){
+		$(".moduleContent").hide();
+	});
+	$("#beamsModuleContent").fadeIn("slow", function(){
+		$("#beamsModuleContent").show();
 	});
 }
 

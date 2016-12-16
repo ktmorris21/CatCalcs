@@ -87,13 +87,13 @@
   <div class="w3-container">
     <h6 id="solutionsLink" class="unselectable" onclick="toggleGroup('solutionsLink');" style="cursor: pointer;">Solution Sets &nbsp +</h6>
   </div>
-    <a href="#" class="w3-padding tablink solutionsLink w3-blue" onclick="openModule(event,'quickStartModule.php');"><i class="fa fa-tachometer fa-fw"></i>&nbsp; Quick Start</a>
+    <a href="#" class="w3-padding tablink solutionsLink w3-blue" onclick="openModule(event,'quickStartModuleContent');"><i class="fa fa-tachometer fa-fw"></i>&nbsp; Quick Start</a>
     <a href="#" class="w3-padding tablink solutionsLink" onclick="openModule(event,'solutionSetsModule');"><i class="fa fa-users fa-fw"></i>&nbsp; Solution Sets</a>
   
   <div class="w3-container">
     <h6 id="mechanicsLink" class="unselectable" onclick="toggleGroup('mechanicsLink');" style="cursor: pointer;">Mechanics &nbsp +</h6>
   </div>
-     <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'beamsModule.php');"><i class="fa fa-minus fa-fw"></i>&nbsp; Beams</a>
+     <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'ssPointLoadBeamModuleContent');"><i class="fa fa-minus fa-fw"></i>&nbsp; Beams</a>
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'platesModule');"><i class="fa fa-square fa-fw"></i>&nbsp; Plates</a>
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'trussesModule');"><i class="fa fa-arrows-alt fa-fw"></i>&nbsp; Trusses</a>
      <a href="#" class="w3-padding tablink mechanicsLink" onclick="openModule(event,'columnsModule');"><i class="fa fa-university fa-fw"></i>&nbsp; Columns</a>
@@ -146,8 +146,21 @@
 <!-- Module button for small screen -->
 <button class="w3-btn w3-hide-large w3-padding-0 w3-hover-text-grey w3-blue" onclick="w3_open();"><i class="fa fa-bars"></i> &nbsp;Quick Start Menu</button>
  
- <!-- Div for module viewer -->
- <div id="moduleViewer"><br><br></div>
+ <!-- Module Content Divs -->
+<div id="quickStartModuleContent" class="moduleContent" style="display:none">
+    <?php include('quickStartModule.php') ?>
+</div>
+<div id="mechanicsModuleContent" class="moduleContent" style="display:none">
+    <?php include('mechanicsModule.php') ?>
+</div>
+<div id="beamsModuleContent" class="moduleContent" style="display:none">
+    <?php include('beamsModule.php') ?>
+</div>
+<div id="ssPointLoadBeamModuleContent" class="moduleContent" style="display:none">
+    <?php include('ssPointLoadBeamModule.php') ?>
+</div>
+
+<!-- Div for ohsnap message boxes -->
 <div id="ohsnap" style="position: absolute; bottom: 0px; right: 21px;"></div>
 
 </div> 
@@ -156,8 +169,9 @@
 <script src="raphael.js"></script>
 <script src="ohsnap.js"></script>
 <script src="namespaces.js"></script>
-<script src="ssPointLoadBeamModuleMainJS.js"></script>
 <script src="mainAppClient.js"></script>
+<script src="ssPointLoadBeamModuleMainJS.js"></script>
+<script src="ssPointLoadBeamModuleAISCmodalJS.js"></script>
 
 </body>
 </html>

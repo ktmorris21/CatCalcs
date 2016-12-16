@@ -9,17 +9,17 @@
 </div>
 
 <script>
+
 function loadSimplySupportedPointLoadBeam() {
-	$("#moduleViewer").fadeOut("fast", function(){
-		$("#moduleViewer").empty();
-		$("#moduleViewer").hide();
-		$("#moduleViewer").load("ssPointLoadBeamModule.php");
-		$("#moduleViewer").fadeIn("fast", function(){
-			
-		});	
+	
+	$(".moduleContent").fadeOut("slow", function(){
+		$(".moduleContent").hide();
 	});
 	
-	
-	
+	$("#ssPointLoadBeamModuleContent").fadeIn("slow", function(){
+		$("#ssPointLoadBeamModuleContent").show();
+	});
+
 }
+
 </script>

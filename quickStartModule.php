@@ -15,39 +15,31 @@
 
 function loadSolutionSetsModule() {
 	
-	$("#moduleViewer").empty();
-	$("#moduleViewer").load("solutionSetsModule.php");
 }
 
 function loadMechanicsModule() {
-	$("#moduleViewer").fadeOut("fast", function(){
-		$("#moduleViewer").empty();
-		$("#moduleViewer").hide();
-		$("#moduleViewer").load("mechanicsModule.php");
-		$("#moduleViewer").fadeIn("fast", function(){
-			
-		});	
+	$(".moduleContent").fadeOut("slow", function(){
+		$(".moduleContent").hide();
+	});
+	$("#mechanicsModuleContent").fadeIn("slow", function(){
+		$("#mechanicsModuleContent").show();
 	});
 }
 	
 function loadThermoFluidsModule() {
-	$("#moduleViewer").empty();
-	$("#moduleViewer").load("thermoFluidsModule.php");
+	
 }
 
 function loadElectricalModule() {
-	$("#moduleViewer").empty();
-	$("#moduleViewer").load("electricalModule.php");
+
 }
 
 function loadMathModule() {
-	$("#moduleViewer").empty();
-	$("#moduleViewer").load("mathModule.php");
+
 }
 
 function loadFinanceModule() {
-	$("#moduleViewer").empty();
-	$("#moduleViewer").load("financeModule.php");
+	
 }
 
 </script>
